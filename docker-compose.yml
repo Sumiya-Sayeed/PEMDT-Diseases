@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mount the current directory into the container to save work locally
+      - .:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      # Setting a blank token lets anyone connect without a password
+      # (WARNING: Only do this for local development)
+      - JUPYTER_TOKEN=

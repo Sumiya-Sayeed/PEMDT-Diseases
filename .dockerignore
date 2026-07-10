@@ -1,0 +1,15 @@
+.git
+.gitignore
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Exclude derived data and massive output folders if they aren't needed in the base image
+**/derived/
+**/*_cache/
+**/results/
+**/archive/**/data/
+**/*.parquet
+**/*.bak
+**/*.bak[0-9]*
