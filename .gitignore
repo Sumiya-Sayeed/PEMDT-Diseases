@@ -1,0 +1,20 @@
+# --- MIMIC-derived data (DUA: never commit) ---
+**/derived/
+**/*_cache/
+**/results/
+**/archive/**/data/
+**/*.parquet
+**/*cohort*.csv
+**/*dashboard*.csv
+**/kdigo_*.csv
+**/*.pages
+**/*CLAUDE.md
+*.csv
+
+# --- backups / scratch ---
+**/*.bak
+**/*.bak[0-9]*
+**/.DS_Store
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.pyc
