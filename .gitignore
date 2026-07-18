@@ -10,7 +10,7 @@
 **/*.pages
 **/*CLAUDE.md
 *.csv
-
+*.pdf
 # --- backups / scratch ---
 **/*.bak
 **/*.bak[0-9]*
@@ -18,3 +18,7 @@
 **/.ipynb_checkpoints/
 **/__pycache__/
 *.pyc
+
+# --- CMPB / CMP folders ---
+CMPB/
+Submission/
